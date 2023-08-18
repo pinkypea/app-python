@@ -12,6 +12,7 @@ n = int(input("Nhập vào số nguyên dương n: "))
 for i in range(2, n + 1, 2):
     print(i , end=" ")
 
+# Viết chương trình nhập vào số x, biết 0 <= x <= 100. Nếu người dùng nhập x ngoài khoảng [0, 100] thì bắt người dùng nhập lại, nếu nhập đúng thì in ra màn hình x%
 x = int(input("Nhập số x: "))
 while x < 0 or x > 100:
     x = int(input("Nhập lại x: "))
