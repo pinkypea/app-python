@@ -9,7 +9,7 @@ n = int(input("Nhập số n: "))
 
 # Nhập vào từ bàn phím số nguyên dương n. Tính tổng các chữ số của số n đó.
 while n > 0:
-    sum = n % 10
+    sum += n % 10
     n = n // 10
 print(sum)
 
