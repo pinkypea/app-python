@@ -19,7 +19,7 @@ for i in range(len(s)):
     if s[i] != " ":
         print(s[i])
 
-Sử dụng in để kiểm tra xâu con
+# Sử dụng in để kiểm tra xâu con
 
 xau1 = "Hello"
 xau2 = "Hello, world"
