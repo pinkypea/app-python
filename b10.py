@@ -1,0 +1,18 @@
+um=[]
+two=int(input(""))
+um.append(two)
+three=int(input(""))
+um.append(three)
+fouth=int(input(""))
+um.append(fouth)
+five=int(input(""))
+um.append(five)
+six=int(input(""))
+um.append(six)
+seven=int(input(""))
+um.append(seven)
+sum=(two+three+fouth+five+six+seven)
+
+tong=("Tổng chi tiêu là:",sum,"VND")
+trung_binh=int((two+three+fouth+five+six+seven)/3)
+print("Trung bình chi tiêu của mỗi ngày trong tuần",trung_binh)
